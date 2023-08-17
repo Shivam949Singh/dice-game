@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(85, 4, 20);
+}
+
+.container{
+    text-align: center;
+    height: 70vh;
+}
+
+h1{
+    font-family: "Barriecito", cursive;
+    font-family: "Lora", serif;
+    font-family: "Permanent Marker", cursive;
+    font-size: 4.4rem;
+    text-align: center;
+    background-color: rgb(238, 79, 73);
+    padding-top: 5vh;
+    height: 20vh;
+    color: rgb(110, 4, 4);
+}
+
+.material{
+    margin-top: 20vh;
+    display: flex;
+    justify-content: center;
+    color: bisque;
+}
+
+.material p{
+    font-size: xx-large;
+    font-family: 'Caprasimo', cursive;
+    margin-bottom: 7vh;
+}
+
+.material .img1{
+    margin-right: 5vh;
+}
+
+.material .img2{
+    margin-left: 5vh;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+@media(max-width : 900px) {
+    h1{
+        font-size: 4rem;
+        height: 25vh;
+        padding: 0;
+    }
+
+    .material .img1{
+        height: 20vh;
+    }
+
+    .material .img2{
+        height: 20vh;
+    }
+}
